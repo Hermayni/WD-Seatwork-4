@@ -1,0 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+@font-face {
+    font-family: 'MARGIN';
+    src: url('/assets/fonts/MarginDemo-7B6ZE.otf');
+}
+
+@font-face {
+    font-family: 'MINECRAFT';
+    src: url('/assets/fonts/MinecraftItalic-R8Mo.otf');
+}
+
+@font-face {
+    font-family: 'POWERPUFF';
+    src: url('../fonts/powerpuff\ girls\ font.ttf');
+}
+@font-face {
+    font-family: 'POWERPUFFZ';
+    src: url('../fonts/PowerPuff\ Z\ V.4\,00\ \(Oficial\)\ By\ PKFS.ttf');
+}
+
+@font-face {
+    font-family: 'UTONIUM';
+    src: url('../fonts/UtoniumItalic-3r0G.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('fonts/Nunito-Regular.ttf');
+}
+
+.cards-box{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/image\ copy.png);
+    background-size: cover;
+
+    background-position: center;
+}
+
+.hero-one {
+  height: 800px;
+  padding: 20px;
+  position: relative;
+  right: 25%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+
+  & .title {
+    position: relative;
+    font-size: 7rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: 'POWERPUFF';
+    color: #fa2f98;
+    text-shadow: 10px 5px #000000;
+    left: 7.5%;
+  }
+
+  & .subtitle {
+    position: relative;
+    font-family: 'MINECRAFT';
+    left: 25%;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1.5rem;
+    color:rgb(0, 0, 0);
+    margin-bottom: -2rem;
+    text-shadow: 5px 5px 10px #c32faa;
+  }
+
+  & .button {
+    font-family: 'UTONIUM';
+    text-decoration: none;
+    display: inline-block;
+    background-color:  #000000;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-left: 9rem;
+    color: white;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+
+
+  & .tumbmage {
+    width: 40%;
+    transition: transform 0.3s ease;
+  }
+
+  .tumbmage:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+.hero-section nav {
+    position: fixed;
+    top: 2rem;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 138px;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item a {
+    color: #3c3c3c;
+    font-family: 'MARGIN';
+    font-size: 27px;
+}
+
+button {
+    border-radius: 12px;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(#83c87f, #54ae40, #37803b);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'MARGIN';
+    font-size: 27px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+
+
+.cart {
+    position: relative;
+    bottom: 0.5rem;
+    height: 3.5rem;
+}
+
+.logo {
+    height: 10rem;
+}
+
+/* FEATURES PART */
+
+.Powerpuff-girls{
+    background-image: linear-gradient(#cce2b3, #c3e7a0, #6c9c46);
+    background-size: cover;
+    height: 5rem;
+}
+.Powerpuff-girls h1 {
+    font-family: 'POWERPUFF';
+   position: relative;
+   left: 35%;
+   top: 10%;
+   margin-bottom: 1rem;
+}
+
+
+/* General container styling */
+.features1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Untitled\ video\ -\ Made\ with\ Clipchamp.gif);
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Individual feature styling */
+  .feature1 {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+  }
+  
+  .feature1:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Feature-specific backgrounds */
+  .feature1:nth-child(1) {
+    background-color:#a6d7e8; 
+  }
+  
+  .feature1:nth-child(2) {
+    background-color: #ecb8cf; 
+  }
+  
+  .feature1:nth-child(3) {
+    background-color:#f4eebc; 
+  }
+  
+  .feature1:nth-child(4) {
+    background-color:#abd4c2; 
+  }
+
+  .feature1:nth-child(5) {
+    background-color: #afa7ce; 
+  }
+
+  .feature1-icon-wrapper {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature1-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .feature1-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Feature text styling */
+  .feature1-text {
+    flex: 2;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  .feature1-title {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: 'UTONIUM';
+    text-align: center;
+  }
+  
+  .feature1-description {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Alternating feature positioning */
+  .feature1-left {
+    flex-direction: row; /* Icon on left, text on right */
+  }
+  
+  .feature1-right {
+    flex-direction: row; /* Icon on right, text on left */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .feature {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .feature-left,
+    .feature-right {
+      flex-direction: column;
+    }
+  
+    .feature-text {
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .feature-icon-wrapper {
+      padding: 0;
+    }
+  }
+
+
+
+
+
+/* ALBUM TRACK PART */
+
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7536c8;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Album-track{
+    background-image: linear-gradient(#cce2b3, #c3e7a0, #6c9c46);
+    background-size: cover;
+    height: 4rem;
+}
+.Album-track h1 {
+   position: relative;
+   left: 42%;
+   top: 10%;
+   margin-bottom: 1rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature:nth-child(1) {
+  background-color: #ffffff; 
+}
+
+.feature:nth-child(2) {
+  background-color: #ffffff; 
+}
+
+.feature:nth-child(3) {
+  background-color: #ffffff; 
+}
+
+.feature:nth-child(4) {
+    background-color: #ffffff; 
+    
+  }
+
+
+.feature-icon-wrapper {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.feature-icon:hover {
+  transform: scale(1.1);
+}
+
+.feature-icon-wrapper .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+    font-size: 9px;
+  
+
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .feature-icon-wrapper:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+.feature-text {
+  flex: 2;
+  text-align: left;
+  padding: 0 10px;
+ 
+
+}
+
+.feature-title {
+  font-style: "Poppins";
+  color: #333;
+   font-size: 25px;
+}
+
+.feature-description {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.feature-left {
+  flex-direction: row; 
+}
+
+
+
+.feature4{
+margin-bottom: 1rem;
+}
+
+
+
+.Album-versions{
+    background-image: linear-gradient(#cce2b3, #c3e7a0, #6c9c46);
+    background-size: cover;
+    height: 4rem;
+}
+.Album-versions h1 {
+   position: relative;
+   left: 42%;
+   top: 10%;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+
+/* ALBUMSPART */
+.album1-container {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #0000005d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px; 
+    align-self: center; 
+    margin: 20px auto; 
+}
+
+.album1-image-container {
+    background-color: rgba(255, 255, 255, 0.614);
+    padding: 15px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow: hidden;
+}
+
+.album1-image img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.album1-info {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.259);
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* ALBUM 2 */
+
+.album2-container {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #0000005d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px; 
+    align-self: center; 
+    margin: 20px auto; 
+}
+
+.album2-image-container {
+    background-color: rgba(255, 255, 255, 0.614);
+    padding: 15px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow: hidden;
+}
+
+.album2-image img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.album2-info {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.259);
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+ 
+
+/* Button styling */
+.card-button-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card-btn {
+  border: none;
+  border-radius: 5px;
+  color: #010101;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  font-family: 'Nunito-Regular';
+  font-size: 10px;
+}
+
+
+.albums-wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+
+  }
+  
+
+  .album1-container, .album2-container, .album3-container {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#38407d ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 20rem; 
+    align-self: center;
+    margin: 20px auto;
+    height: 50rem;
+  }
+  
+  .album1-image-container, .album2-image-container, .album3-image-container {
+    background: linear-gradient(45deg, #d1e6f1,#efeff4, #f4e0ec);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .album1-image img, .album2-image img, .album3-image img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .album1-info, .album2-info, .album3-info {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #b1b6d9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+
+
+ 
+
+  .album2-img{
+    height: 395px;
+  }
+
+.album3-img{
+    height: 395px;
+}
+
+
+footer {
+    background-image: radial-gradient(#bebebe, #8e8e8e, #5c5c5c);
+  color: #ffffff;
+  text-align: center;
+  height: 15rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  left: 10%;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h4 {
+    margin-top: 4rem;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+
+
+.footer-copyright {
+  padding: 10px 0;
+  
+}
+
+.footer-copyright p {
+  font-size: 14px;
+  margin: 0;
+  position: relative;
+  top:160%;
+  right: 267%;
+  margin-bottom: 1rem;
+}
+
+
+
+  

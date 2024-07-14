@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'MARGIN';
+    src: url('/assets/fonts/MarginDemo-7B6ZE.otf');
+}
+
+@font-face {
+    font-family: 'MINECRAFT';
+    src: url('/assets/fonts/MinecraftItalic-R8Mo.otf');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('fonts/Nunito-Regular.ttf');
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #f0e8d5;
+    overflow: hidden;
+}
+
+.hero-section nav {
+    position: fixed;
+    top: 2rem;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 138px;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item a {
+    color: #3c3c3c;
+    font-family: 'MARGIN';
+    font-size: 27px;
+}
+
+button {
+    border-radius: 12px;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(#cce2b3, #c3e7a0, #6c9c46);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'MARGIN';
+    font-size: 27px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+
+
+.cart {
+    position: relative;
+    bottom: 0.5rem;
+    height: 3.5rem;
+}
+
+.logo {
+    height: 10rem;
+}
+
+.top-line {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-line h1 {
+    font-family: 'MINECRAFT';
+    font-size: 190px;
+    color: #0c2579;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -28%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: toph1 1.2s linear;
+}
+
+@keyframes toph1 {
+    0% {
+        bottom: -100%;
+    }
+}
+
+.top-line p {
+    font-family: 'Nunito-Regular';
+    font-size: 24px;
+    color: #000;
+    line-height: normal;
+    width: 500px;
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+
+.bottom-line {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #0c2579;
+}
+
+.bottom-line h1 {
+    font-family: 'MINECRAFT';
+    font-size: 190px;
+    color: #f0e8d5;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 72%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bottomh1 1.2s linear;
+}
+
+@keyframes bottomh1 {
+    0% {
+        bottom: 100%;
+    }
+}
+
+.bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 125px 345px;
+}
+
+.bottom-content h3 {
+    font-family: 'MINECRAFT';
+    font-size: 50px;
+    position: absolute;
+    left: 35%;
+    color: #ffffff;
+    margin-top: 5rem;
+}
+
+.bottom-content p {
+    font-family: 'Nunito-Regular';
+    font-size: 11px;
+    color: #ffffff;
+    width: 500px;
+    position: absolute;
+    left: 35%;
+    line-height: 1.3rem;
+    margin-top: 15rem;
+}
+
+.description {
+    margin-top: 5rem;
+}
+
+@keyframes main-img {
+    0% {
+        top: 120%;
+    }
+
+    100% {
+        top: 67%;
+    }
+}
+
+.star1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    animation: lime1 1.2s linear;
+    height: 8rem;
+}
+
+@keyframes lime1 {
+    0% {
+        top: -100%;
+    }
+}
+
+.star2 {
+    position: absolute;
+    top: 20%;
+    left: 62%;
+    animation: lime2 1.2s linear;
+    height: 8rem;
+}
+
+@keyframes lime2 {
+    0% {
+        top: -100%;
+    }
+}
