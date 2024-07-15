@@ -146,7 +146,7 @@ WD-ProjectName
 |-|-|-|
 |Seatwork 4| Image resources for the entire websire | https://ph.pinterest.com/hermayni22/seatwork-4/ |
 |Seatwork 4 - Serrano | Served as a guide and ispiration | https://maerona03.github.io/WD-seatwork4/pages/Aquaflask/index.html|
-|
-
+|Get Up (NewJeans)| information reference for features page 1 | https://kpop.fandom.com/wiki/Get_Up_(NewJeans) |
+| New Jeans (EP) | information reference for features page 2 | https://kpop.fandom.com/wiki/New_Jeans_(EP) |
 
 
