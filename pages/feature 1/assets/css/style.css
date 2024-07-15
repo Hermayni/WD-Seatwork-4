@@ -381,6 +381,328 @@ margin-bottom: 1rem;
 }
 
 
+.Album-features{
+  background-image: linear-gradient(#cce2b3, #c3e7a0, #6c9c46);
+  background-size: cover;
+  height: 4rem;
+}
+.Album-features h1 {
+ position: relative;
+ left: 42%;
+ top: 10%;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+
+.Album-inclusions{
+  background-image: linear-gradient(#d0b3e2, #c5a0e7, #78469c);
+  background-size: cover;
+  height: 3rem;
+}
+.Album-inclusions h1 {
+ position: relative;
+ left: 46%;
+ top: 18%;
+ margin-bottom: 1rem;
+ font-size: 20px;
+}
+
+.features1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Untitled\ video\ -\ Made\ with\ Clipchamp.gif);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Individual feature styling */
+.feature1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+
+.feature1:hover {
+  transform: translateY(-10px);
+}
+
+/* Feature-specific backgrounds */
+.feature1:nth-child(1) {
+  background-color:#a6bfe8; 
+}
+
+.feature1:nth-child(2) {
+  background-color: #809ad0; 
+}
+
+.feature1:nth-child(3) {
+  background-color:#5d759b; 
+}
+
+.feature1-icon-wrapper {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+
+
+.feature1-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Feature text styling */
+.feature1-text {
+  flex: 2;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.feature1-title {
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 10px;
+  font-family: 'MINECRAFT';
+  text-align: center;
+}
+
+.feature1-description {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+.feature1-left {
+  flex-direction: row; 
+}
+.feature1-right {
+  flex-direction: row; 
+}
+
+@media (max-width: 900px) {
+  .feature {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .feature-left,
+  .feature-right {
+    flex-direction: column;
+  }
+
+  .feature-text {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .feature-icon-wrapper {
+    padding: 0;
+  }
+}
+
+.feature1-icon{
+  height: 10rem;
+}
+.feature2-icon{
+  height: 10rem;
+}
+
+.feature3-icon{
+  height: 10rem;
+}
+
+.Album-genre{
+  background-image: linear-gradient(#d0b3e2, #c5a0e7, #78469c);
+  background-size: cover;
+  height: 3rem;
+}
+.Album-genre h1 {
+ position: relative;
+ left: 48%;
+ top: 18%;
+ margin-bottom: 1rem;
+ font-size: 23px;
+}
+
+
+.cards-list {
+  width: 100%;
+  flex-wrap: wrap;
+  position: fixed;
+  height: 65dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(../images/Newjeans\ Hypeboy\ GIF\ -\ Newjeans\ Hypeboy\ Kpop\ -\ Discover\ &\ Share\ GIFs.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  background-image: linear-gradient(45deg, #ffc965,#ffc965,#fdf2c5);
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'MINECRAFT';
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    flex-direction: column;
+  }
+}
+
+.Album-credits{
+  background-image: linear-gradient(#d0b3e2, #c5a0e7, #78469c);
+  background-size: cover;
+  height: 3rem;
+}
+.Album-credits h1 {
+ position: relative;
+ left: 48%;
+ top: 18%;
+ margin-bottom: 1rem;
+ font-size: 23px;
+}
+
+
+
+.albums-wrapper {
+  background-image: linear-gradient(#cce2b3, #c3e7a0, #6c9c46);
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.album1-container, .album2-container {
+  font-family: 'Pixelify Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #38407d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 20rem; 
+  align-self: center;
+  margin: 20px auto;
+  height: 30rem;
+}
+
+.album1-info, .album2-info {
+  font-family: 'Pixelify Sans', sans-serif;
+  background-color: #b1b6d9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.album2-info2{
+  background-color: #181580;
+  font-family: 'MARGIN';
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 12px;
+  margin-top: 2rem;
+  color: white;
+}
+
+.album1-container{
+  margin-left: 17rem;
+}
+.album2-container{
+  margin-right: 17rem;
+}
+
+.album1-info2{
+  background-color: #181580;
+  font-family: 'MARGIN';
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 2rem;
+  color: white;
+  height: 15rem;
+}
+
+.album1-info2 ul li {
+  margin-top: 1rem;
+  position: relative;
+  top: 2rem;
+  left: 1.5rem;
+}
+
+
+.album2-info2{
+  background-color: #181580;
+  font-family: 'MARGIN';
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2rem;
+  color: white;
+}
+
+
+
+
+
+
+
 
 
 

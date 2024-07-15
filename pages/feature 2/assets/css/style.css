@@ -613,6 +613,22 @@ margin-bottom: 1rem;
 }
 
 
+
+.Album-features{
+  background-image: linear-gradient(#cce2b3, #c3e7a0, #6c9c46);
+  background-size: cover;
+  height: 4rem;
+}
+.Album-features h1 {
+ position: relative;
+ left: 42%;
+ top: 10%;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+
+
 footer {
     background-image: radial-gradient(#bebebe, #8e8e8e, #5c5c5c);
   color: #ffffff;
