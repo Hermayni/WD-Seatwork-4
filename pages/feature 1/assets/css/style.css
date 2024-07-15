@@ -625,7 +625,7 @@ margin-bottom: 1rem;
   font-family: 'Pixelify Sans', sans-serif;
   display: flex;
   flex-direction: column;
-  background-color: #38407d;
+  background-image: linear-gradient(#5774f6, #a2bff9,#f5f8fd);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
